@@ -1,9 +1,5 @@
 import { MongoClient } from 'mongodb';
 
-//rutuparndalvi95
-//MBAfK6mRYftDMrJE
-//cluster0.tmqmucw.mongodb.net
-
 const clusterAddress = process.env.MONGODB_CLUSTER_ADDRESS;
 const dbUser = process.env.MONGODB_USERNAME;
 const dbPassword = process.env.MONGODB_PASSWORD;
